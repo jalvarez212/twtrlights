@@ -30,8 +30,8 @@ const params = {
 
 
 const client = new Twitter({
-  consumer_key: "SiPSBNbS3Z07JISLrMbpMytHG",
-  consumer_secret: "Tiqnm2d0FHUoc4nXDU1PNIj17p7kWdCs2uLiEpO2SFGXfZX9zT"
+  consumer_key: "XXX",
+  consumer_secret: "XXX"
 });
 
 var port = process.env.PORT || 3000;
