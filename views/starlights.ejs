@@ -189,7 +189,7 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
 if (this.readyState == 4 && this.status == 200) {
     code = this.responseText;
-    window.location.href = `https://api.twitter.com/oauth/authenticate?oauth_token=${code}`;
+    // window.location.href = `https://api.twitter.com/oauth/authenticate?oauth_token=${code}`;
   }
 
 };
