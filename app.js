@@ -20,8 +20,8 @@ var buf = crypto.randomBytes(32).toString('base64');
 console.log(buf);
 var signature;
 const endpointURL = new URL(`https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=${screenName}`);
-const consumer_key = 'SiPSBNbS3Z07JISLrMbpMytHG'; // Add your API key here
-const consumer_secret = 'Tiqnm2d0FHUoc4nXDU1PNIj17p7kWdCs2uLiEpO2SFGXfZX9zT'; // Add your API secret key here
+const consumer_key = 'XXX'; // Add your API key here
+const consumer_secret = 'XXX'; // Add your API secret key here
 const params = {
   ids: '1067094924124872705',
   'tweet.fields': 'created_at',
